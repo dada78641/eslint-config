@@ -4,13 +4,22 @@
   "version": "2.1.0",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
-    ".": "./index.js",
-    "./no-semi": "./no-semi.js"
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./no-semi": {
+      "types": "./no-semi.d.ts",
+      "default": "./no-semi.js"
+    }
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "no-semi.js",
+    "no-semi.d.ts",
     "lib/"
   ],
   "license": "MIT",
