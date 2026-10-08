@@ -1,7 +1,7 @@
 {
   "name": "@dada78641/eslint-config",
   "description": "Personal ESLint config",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
